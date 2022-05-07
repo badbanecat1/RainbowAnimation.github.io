@@ -68,12 +68,12 @@
 	 left: calc(var(--axis-x) * 6);
 	 z-index: -60;
 }
- .c-rainbow__layer:nth-child(7) {
-	 animation-delay: calc(7 / var(--delay) * 1s);
-	 left: calc(var(--axis-x) * 7);
-	 z-index: -70;
+
+.c-rainbow__layer:not(:first-child) {
+	 position: absolute;
+	 top: 0;
 }
- 
+
 .c-rainbow__layer--orange {
 	 --text-color: var(--color-orange);
 }
