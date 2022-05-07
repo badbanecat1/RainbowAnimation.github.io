@@ -10,7 +10,7 @@
   --color-blue: #44A3F7;
   --color-green: #5ACB3C;
   --color-yellow: #DEBF40;
-  --color-foreground: var(--color-white);
+  /*--color-foreground: var(--color-white); */
   --font-name: Righteous;
 } 
 html, body {
