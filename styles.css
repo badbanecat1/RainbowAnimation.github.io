@@ -73,11 +73,7 @@
 	 left: calc(var(--axis-x) * 7);
 	 z-index: -70;
 }
- .c-rainbow__layer:not(:first-child) {
-	 position: absolute;
-	 top: 0;
-}
-
+ 
 .c-rainbow__layer--orange {
 	 --text-color: var(--color-orange);
 }
