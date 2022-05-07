@@ -2,8 +2,6 @@
 	 --axis-x: 1px;
 	 --axis-y: 1rem;
 	 --delay: 10;
-	 --color-black: #000;
-	 --color-white: #fff;
 	 --color-orange: #d49c3d;
 	 --color-red: #d14b3d;
 	 --color-violet: #cf52eb;
@@ -79,10 +77,8 @@
 	 position: absolute;
 	 top: 0;
 }
- .c-rainbow__layer--white {
-	 --text-color: var(--color-white);
-}
- .c-rainbow__layer--orange {
+
+.c-rainbow__layer--orange {
 	 --text-color: var(--color-orange);
 }
  .c-rainbow__layer--red {
